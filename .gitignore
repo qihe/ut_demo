@@ -1,0 +1,8 @@
+*.iml
+01-Assert-Pattern/target/*
+02-Fixture/target/*
+03-TestPattern/target/*
+04-Mockery/target/*
+05-MockIsNotSilverBullet/target/*
+06-Testable/target/*
+.idea/*
