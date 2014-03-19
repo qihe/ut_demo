@@ -28,7 +28,7 @@ public class PersonServiceTest {
     public void before_each() {
         context = new Mockery() {{
             setImposteriser(ClassImposteriser.INSTANCE);
-            
+
         }};
         insurances = new Insurances();
         aGuy = context.mock(Person.class);
