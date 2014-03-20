@@ -3,7 +3,6 @@ package com.baidu.crm;
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 import static org.hamcrest.Matchers.*;

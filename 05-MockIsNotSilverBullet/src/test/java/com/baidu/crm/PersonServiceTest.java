@@ -6,17 +6,14 @@ import org.jmock.Mockery;
 import org.jmock.integration.junit4.JMock;
 import org.jmock.lib.legacy.ClassImposteriser;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
-/**
- * User: howard
- * Date: 06/04/12
- * Time: 15:44
- */
+
 @RunWith(JMock.class)
 public class PersonServiceTest {
     Mockery context;
@@ -34,6 +31,7 @@ public class PersonServiceTest {
     }
 
     @Test
+    @Ignore
     public void person_without_job_has_retirement_insurance() {
         context.checking(new Expectations() {{
             allowing(aGuy).getJob();
@@ -46,6 +44,7 @@ public class PersonServiceTest {
     }
 
     @Test
+    @Ignore
     public void person_with_job_has_insurances() {
         context.checking(new Expectations() {{
             allowing(aGuy).getJob();
