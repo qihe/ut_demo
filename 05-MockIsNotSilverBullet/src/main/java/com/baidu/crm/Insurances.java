@@ -5,11 +5,6 @@ import com.baidu.crm.insurance.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * User: howard
- * Date: 06/04/12
- * Time: 15:28
- */
 public class Insurances {
 
     List<Insurance> insurances = new ArrayList<Insurance>();

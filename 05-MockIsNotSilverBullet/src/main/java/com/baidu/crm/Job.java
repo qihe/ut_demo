@@ -4,11 +4,6 @@ import com.baidu.crm.insurance.HealthInsurance;
 import com.baidu.crm.insurance.HouseFund;
 import com.baidu.crm.insurance.UnemploymentInsurance;
 
-/**
- * User: howard
- * Date: 06/04/12
- * Time: 15:26
- */
 public class Job {
 
     private String name;

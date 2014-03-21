@@ -12,11 +12,6 @@ import org.junit.runner.RunWith;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
-/**
- * User: howard
- * Date: 06/04/12
- * Time: 15:44
- */
 @RunWith(JMock.class)
 public class PersonServiceTest {
     Mockery context;

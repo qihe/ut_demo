@@ -8,11 +8,6 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-/**
- * User: howard
- * Date: 11-11-3
- * Time: 上午11:09
- */
 @RunWith(JMock.class)
 public class TestMockery {
 

@@ -7,11 +7,6 @@ import org.junit.Test;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
-/**
- * User: howard
- * Date: 11-11-1
- * Time: 下午6:30
- */
 public class Fixture {
 
     @Test

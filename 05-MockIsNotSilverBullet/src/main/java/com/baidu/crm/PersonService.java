@@ -5,11 +5,6 @@ import com.baidu.crm.insurance.HouseFund;
 import com.baidu.crm.insurance.RetirementInsurance;
 import com.baidu.crm.insurance.UnemploymentInsurance;
 
-/**
- * User: howard
- * Date: 06/04/12
- * Time: 15:23
- */
 public class PersonService {
 
     Person person;
