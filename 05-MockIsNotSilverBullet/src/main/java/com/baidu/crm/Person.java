@@ -14,4 +14,14 @@ public class Person {
     }
 
 
+    void reqIns(Insurances insurances) {
+        if (getJob() == null) {
+            insurances.add(new RetirementInsurance());
+        } else {
+            insurances.add(new HealthInsurance());
+            insurances.add(new UnemploymentInsurance());
+            insurances.add(new HouseFund());
+            insurances.add(new RetirementInsurance());
+        }
+    }
 }

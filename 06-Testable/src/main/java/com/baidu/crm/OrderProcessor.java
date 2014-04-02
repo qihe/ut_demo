@@ -13,10 +13,14 @@ public class OrderProcessor {
         for (int i = 0; i < orderItems.size(); i++) {
             OrderItem item = orderItems.get(i);
             //static method
-            double productPrice = PriceService.getProductPrice(item);
+            double productPrice = productPrice(item);
             totalAmount += item.getSum() * productPrice;
         }
         return totalAmount;
+    }
+
+    private double productPrice(OrderItem item) {
+        return PriceService.getProductPrice(item);
     }
 
 }

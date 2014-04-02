@@ -35,7 +35,7 @@ public class Assertion {
     }
 
     @Test
-    public void userDefineAssertion() {
+    public  void userDefineAssertion() {
         List<String> list = new ArrayList();
         list.add("hello");
         a_complicated_assertion(list);

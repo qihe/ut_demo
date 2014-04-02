@@ -6,6 +6,7 @@ import org.jmock.Mockery;
 import org.jmock.integration.junit4.JMock;
 import org.jmock.lib.legacy.ClassImposteriser;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -29,6 +30,7 @@ public class PersonServiceTest {
     }
 
     @Test
+    @Ignore
     public void person_without_job_has_retirement_insurance() {
         context.checking(new Expectations() {{
             allowing(aGuy).getJob();
@@ -41,6 +43,7 @@ public class PersonServiceTest {
     }
 
     @Test
+    @Ignore
     public void person_with_job_has_insurances() {
         context.checking(new Expectations() {{
             allowing(aGuy).getJob();
